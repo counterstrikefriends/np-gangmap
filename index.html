@@ -26,7 +26,19 @@
 		<p class="left" style="padding-top: 5px;"><a href="">NoPixel Territory Map</a></p>
 		<ul class="right">
 			<div class="dropdown">
-				<a href="https://github.com/skyrossm/np-gangmap/graphs/contributors" target="_blank"><button class="btn btn-primary">Contributors</button></a>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Sources
+				</button>
+				<div class="dropdown-menu" aria-labelledby="ddmenu2">
+					<a class="dropdown-item" href="https://github.com/danharper/GTAV" target="_blank">danharper</a>
+					<a class="dropdown-item"  href="https://github.com/gta5-map/gta5-map.github.io" target="_blank">gta5-map</a>
+					<a class="dropdown-item"  href="https://github.com/skyrossm/np-gangmap/graphs/contributors" target="_blank">np-gangmaP</a>
+					<!--
+					<a href="#" id="Atlas"           class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Atlas');           $(this).addClass('active');">Atlas</a>
+					<a href="#" id="Satellite"       class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satellite');       $(this).addClass('active');">Satellite</a>
+					<a href="#" id="Road"            class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Road');            $(this).addClass('active');">Road</a>
+					-->
+				</div>
 				<button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Add Distance Ruler</button>
 				<button class="btn btn-primary" id="createzone" onclick="printArray()">Add New Region</button>
 				<button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
