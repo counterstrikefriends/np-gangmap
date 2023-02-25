@@ -5632,5 +5632,40 @@
 			{"lat": -48.118, "lng": -13.626},
 			{"lat": -47.333, "lng": -13.133}
 		]
-	}
+	},
+	{
+		"type": "Purple",
+		"title": "Grave Intentions",
+		"notes": "rip",
+		"wiki_link": "https://nopixel.fandom.com/wiki/",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -72.113, "lng": -3.154},
+			{"lat": -72.036, "lng": -2.934},
+			{"lat": -72.002, "lng": -2.714},
+			{"lat": -72.069, "lng": -2.616},
+			{"lat": -72.080, "lng": -2.747},
+			{"lat": -72.221, "lng": -2.462},
+			{"lat": -72.244, "lng": -2.605},
+			{"lat": -72.298, "lng": -2.473},
+			{"lat": -72.345, "lng": -2.780}
+		]
+	},
+	{
+		"type": "Green",
+		"title": "Pink Taco",
+		"notes": "<edit this>",
+		"wiki_link": "https://nopixel.fandom.com/wiki/<edit this>",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -49.095, "lng": -12.438},
+			{"lat": -49.289, "lng": -11.680},
+			{"lat": -49.546, "lng": -11.856},
+			{"lat": -49.325, "lng": -12.570}
+		]
+	},
 ]
