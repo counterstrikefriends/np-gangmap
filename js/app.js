@@ -105,14 +105,14 @@ $(function() {
 			name: 'Purple',
 			icon: 'radar/radar_warehouse.png',
 			type: 'General',
-			enabled: false,
+			enabled: true,
 		},		
 		{
 			name: 'Green',
 			icon: 'radar/radar_police_station.png',
 			type: 'General',
 			enabled: false,
-		},
+		}
 		/*
 		{
 			name: 'Neighborhoods',
