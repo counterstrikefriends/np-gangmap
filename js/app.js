@@ -102,6 +102,19 @@ $(function() {
 
 	var categories = (window.cats = new CategoriesCollection([
 		{
+			name: 'Purple',
+			icon: 'radar/radar_warehouse.png',
+			type: 'General',
+			enabled: false,
+		},		
+		{
+			name: 'Green',
+			icon: 'radar/radar_police_station.png',
+			type: 'General',
+			enabled: false,
+		},
+		/*
+		{
 			name: 'Neighborhoods',
 			icon: 'radar/radar_warehouse.png',
 			type: 'General',
@@ -136,7 +149,7 @@ $(function() {
 			icon: 'radar/radar_police_station.png',
 			type: 'General',
 			enabled: true,
-	   },
+		},
 		{
 			name: 'Medical',
 			icon: 'radar/radar_hospital.png',
@@ -149,7 +162,6 @@ $(function() {
 			type: 'General',
 			enabled: true,
 		},
-		/*
 		{
 			name: 'Deprecated',
 			icon: 'General/glitches.png',
